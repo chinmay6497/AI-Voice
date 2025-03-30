@@ -3,7 +3,7 @@ import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_FIREBASE_API_KEY || "AIzaSyDZLUc6cRIg3nfOdBI5PEOFGHduyrJOePk",
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY || "",
   authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN || "interview-ai-45f5a.firebaseapp.com",
   projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID || "interview-ai-45f5a",
   storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET || "interview-ai-45f5a.appspot.com",
